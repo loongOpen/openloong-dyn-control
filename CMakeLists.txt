@@ -76,21 +76,6 @@ add_library(core ${SOURCES})
 target_link_libraries(core ${sysCoreLibs} pthread)
 
 #生成仿真可执行文件
-add_executable(walk_mpc_wbc demo/walk_mpc_wbc.cpp)
-target_link_libraries(walk_mpc_wbc core mujoco ${sysSimLibs} dl)
-
-add_executable(walk_wbc demo/walk_wbc.cpp)
-target_link_libraries(walk_wbc core mujoco ${sysSimLibs} dl)
-
-add_executable(jump_mpc demo/jump_mpc.cpp)
-target_link_libraries(jump_mpc core mujoco ${sysSimLibs} dl)
-
-add_executable(float_control demo/float_control.cpp)
-target_link_libraries(float_control core mujoco ${sysSimLibs} dl)
-
-add_executable(wbc_speed_test demo/walk_wbc_speed_test.cpp)
-target_link_libraries(wbc_speed_test core mujoco ${sysSimLibs} dl)
-
 add_executable(walk_wbc_joystick demo/walk_wbc_joystick.cpp)
 target_link_libraries(walk_wbc_joystick core mujoco ${sysSimLibs} dl)
 

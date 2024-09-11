@@ -1,5 +1,0 @@
-DataBus
-=======
-
-.. doxygenstruct:: DataBus
-   :members:

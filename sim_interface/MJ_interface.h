@@ -19,6 +19,8 @@ public:
     std::vector<double> motor_pos_Old;
     std::vector<double> motor_vel;
     double rpy[3]{0}; // roll,pitch and yaw of baselink
+    double yaw_simgle;
+	int	   yaw_N = 0;
     double baseQuat[4]{0}; // in quat, mujoco order is [w,x,y,z], here we rearrange to [x,y,z,w]
     double f3d[3][2]{0}; // 3D foot-end contact force, L for 1st col, R for 2nd col
     double basePos[3]{0}; // position of baselink, in world frame

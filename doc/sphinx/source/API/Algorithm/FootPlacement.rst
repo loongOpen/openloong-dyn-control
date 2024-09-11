@@ -1,5 +1,0 @@
-FootPlacement
-=============
-
-.. doxygenclass:: FootPlacement
-   :members:
