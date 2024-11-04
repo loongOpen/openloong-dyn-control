@@ -622,7 +622,7 @@ void WBC_priority::computeDdq(Pin_KinDyn &pinKinDynIn)
         kin_tasks_stand.taskLib[id].ddxDes = Eigen::VectorXd::Zero(5);
         kin_tasks_stand.taskLib[id].dxDes = Eigen::VectorXd::Zero(5);
         kin_tasks_stand.taskLib[id].kp = Eigen::MatrixXd::Identity(5, 5) * 250; // 100
-		kin_tasks_stand.taskLib[id].kp.block(3,1,2,0) = Eigen::MatrixXd::Identity(3,3)*1000;
+		kin_tasks_stand.taskLib[id].kp.block(2, 2, 3, 3) = Eigen::MatrixXd::Identity(3,3)*1000;
 		kin_tasks_stand.taskLib[id].kd = Eigen::MatrixXd::Identity(5, 5) * 10;
         	kin_tasks_stand.taskLib[id].kd.block(2, 2, 3, 3) = Eigen::MatrixXd::Identity(3, 3) * 10;   // 100  // for hip rpy
         kin_tasks_stand.taskLib[id].J = Eigen::MatrixXd::Zero(5, model_nv);
