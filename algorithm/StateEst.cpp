@@ -9,7 +9,8 @@
 
 using namespace Eigen;
 
-StateEst::StateEst(double dtIn)
+StateEst::StateEst(double dtIn):
+		eul_w_filter(dtIn)
 {
     dt = dtIn;
 

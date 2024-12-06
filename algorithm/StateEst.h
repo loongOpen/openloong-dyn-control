@@ -73,7 +73,7 @@ public:
 //    LowPass_filter_1O vyLP_1O{dt,50};
 //    LowPass_filter_1O vzLP_1O{dt,50};
 
-    Eul_W_filter eul_w_filter{dt};
+    Eul_W_filter eul_w_filter;
     double Eul_filtered[3],wL_filtered[3];
 
     double vCoM_LP[3];
