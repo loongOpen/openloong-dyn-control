@@ -208,8 +208,8 @@ DataBus::LegState legState=DataBus::RS;                //初始腾空腿
 
 ## 联系方式
 
-欢迎各位开发者参与本代码库的优化与提高！
+欢迎各位开发者参与本代码库的优化与提高!!
 
 [💬 新建讨论](https://atomgit.com/openloong/openloong-dyn-control/discussions/new/choose) | [📝 反馈问题](https://atomgit.com/openloong/openloong-dyn-control/issues/create) | [📨 变更请求](https://atomgit.com/openloong/openloong-dyn-control/changes)
 
-您可以对现有内容进行意见评价、问题反馈、贡献您的原创内容等，对本代码的任何问题及意见，请联系<web@openloong.org.cn>
+您可以对现有内容进行意见评价、问题反馈、贡献您的原创内容等，对本代码的任何问题及意见，请联系<open@openloong.org.cn>
