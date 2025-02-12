@@ -11,12 +11,13 @@ Feel free to use in any purpose, and cite OpenLoong-Dynamics-Control in any styl
 #include <Eigen/Dense>
 #include "data_bus.h"
 
-class FootPlacement {
+class FootPlacement
+{
 public:
     double kp_vx{0}, kp_vy{0}, kp_wz{0};
     double legLength{1};
     double stepHeight{0.1};
-    double phi{0};    // phase varialbe for trajectory generation, must between 0 and 1
+    double phi{0};      // phase varialbe for trajectory generation, must between 0 and 1
     double tSwing{0.4}; // swing time
     Eigen::Vector3d posStart_W, posDes_W, hipPos_W, STPos_W;
     Eigen::Vector3d desV_W, curV_W;
@@ -27,10 +28,14 @@ public:
     void dataBusRead(DataBus &robotState);
     void dataBusWrite(DataBus &robotState);
     DataBus::LegState legState;
+
 private:
     double pDesCur[3]{0};
     double yawCur;
     double theta0;
     double omegaZ_W;
     double hip_width;
+    bool stretchLeg{false};
+    double zStretch{0};
+    bool finish_Stretch;
 };
