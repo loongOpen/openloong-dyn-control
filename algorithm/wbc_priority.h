@@ -5,9 +5,7 @@ Feel free to use in any purpose, and cite OpenLoong-Dynamics-Control in any styl
  <https://atomgit.com/openloong/openloong-dyn-control.git>
  <web@openloong.org.cn>
 */
-//
-// Created by boxing on 23-12-29.
-//
+
 #pragma once
 
 #include "qpOASES.hpp"

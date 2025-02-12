@@ -26,7 +26,8 @@ public:
     std::vector<double> motor_pos_cur;
     std::vector<double> motor_pos_des_old;
     std::vector<double> motor_vel;
-    std::vector<double> motor_tor_out; // final tau output
+    std::vector<double> motor_tor_out_link; // final tau output
+    std::vector<double> motor_tor_out_motor; // final tau output
     PVT_Ctr(double timeStepIn, const char * jsonPath);
     void calMotorsPVT();
     void calMotorsPVT(double deltaP_Lim);
@@ -48,6 +49,7 @@ public:
     std::vector<double> maxVel;
     std::vector<double> maxPos;
     std::vector<double> minPos;
+    std::vector<double> gear;
 
 private:
     std::vector<LPF_Fst> tau_out_lpf;

@@ -47,3 +47,5 @@ void Limit(double &data, double max, double min);
 
 double sign(const double &x);
 
+double d2r(double deg);
+double r2d(double rad);
