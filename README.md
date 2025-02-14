@@ -14,6 +14,8 @@ Innovation Center, it offers three motion examples: [walking](https://atomgit.co
 [jumping](https://atomgit.com/openloong/openloong-dyn-control/blob/master/demo/jump_mpc.cpp), and [blind obstacle stepping](https://atomgit.com/openloong/openloong-dyn-control/blob/master/demo/walk_mpc_wbc.cpp). The physical
 prototype has achieved <b>walking</b> and <b>blind obstacle stepping <b>motions.
 
+📖 **[Read this in Chinese / 阅读中文版](https://atomgit.com/openloong/openloong-dyn-control/blob/master/README-zh.md)**
+
 ## Project Features
 
 - **​Easy Deployment** Provides a comprehensive solution for deploying code execution  environments, enabling users to easily configure their required working  environments. This code repository includes major dependencies,  eliminating the need for extensive third-party library installations and  simplifying the entire deployment process.
