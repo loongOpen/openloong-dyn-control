@@ -14,7 +14,7 @@ Innovation Center, it offers three motion examples: [walking](https://atomgit.co
 [jumping](https://atomgit.com/openloong/openloong-dyn-control/blob/master/demo/jump_mpc.cpp), and [blind obstacle stepping](https://atomgit.com/openloong/openloong-dyn-control/blob/master/demo/walk_mpc_wbc.cpp). The physical
 prototype has achieved <b>walking</b> and <b>blind obstacle stepping <b>motions.
 
-📖 **[Read this in Chinese / 阅读中文版](./third_party/README.md)**
+📖 **[Read this in Chinese / 阅读中文版](./README.md)**
 
 ## Project Features
 
